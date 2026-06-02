@@ -14,7 +14,7 @@ body {
 
 .card {
   background: #fff;
-  width: 300px;
+  width: 260px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -46,12 +46,13 @@ body {
   margin-bottom: 20px;
 }
 
-table {
+.skill-list {
   width: 100%;
   border-collapse: collapse;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
+  text-align: left;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
@@ -61,7 +62,6 @@ thead {
 }
 th, td {
   padding: 12px 20px;
-  text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
