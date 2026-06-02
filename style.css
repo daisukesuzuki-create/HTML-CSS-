@@ -1,4 +1,4 @@
-body {
+.body1{
   background: #f5f5f5;
   font-family: 'Arial', sans-serif;
   height: 100vh;
@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
 }
 
-.container h2 {
+.skillset {
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -56,15 +56,15 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-thead {
+.skill-title {
   background: #0078D4;
   color: white;
 }
-th, td {
+.cell {
   padding: 12px 20px;
   border-bottom: 1px solid #ddd;
 }
 
-tbody tr:hover {
+.skill-body tr:hover {
   background: #f2f2f2;
 }
