@@ -1,0 +1,93 @@
+.body1 {
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.header {
+  text-align: center;
+  background-image: url(bkgd.jpg);
+  background-size: cover;       
+  background-position: center; 
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.title1{
+font-size: 36px;
+margin-bottom: 10px;
+}
+
+.h-dsc{
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;        
+  margin: 30px 0 auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.card{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.c-title{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.c-dsc{
+  font-size: 14px;
+  color: #666;
+}
+
+.table-section{
+  text-align: center;
+  margin: 30px 0 auto;
+  width: 100%;
+  max-width: 80%;
+}
+
+.t-title{
+  margin-bottom: 20px;
+}
+
+.t-table{
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.t-cell{
+  padding: 12px 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.t-thread{
+  background-color: #0078D4;
+  color: white;
+}
+
+.t-tbody tr:hover{
+  background-color: #f2f2f2;
+}
