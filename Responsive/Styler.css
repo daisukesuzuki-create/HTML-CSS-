@@ -26,9 +26,7 @@
     gap: 20px;
 }
 
-
 @media screen and (min-width: 1280px) {
-
 
     .row1 {
         display: flex;
