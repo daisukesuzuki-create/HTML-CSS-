@@ -75,22 +75,22 @@ body {
 /* Section 共通 */
 
 section {
-    padding: 80px 10%;
+    margin: 0 auto 120px auto;
+    padding: 0 5%;
     background: #fff;
-}
 
-.ttl {
-    font-size: 21.9px;
-    text-align: center;
-    margin-bottom: 40px;
 }
 
 /* About */
 
+.ttl {
+    font-size: 21.9px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
 .About {
     max-width: 840px;
-    margin: 0 auto;
-
 }
 
 .about-list {
@@ -98,10 +98,16 @@ section {
     padding: 0;
 }
 
-.about-li {
-    font-size: 13.3px;
+.about-li1 {
+    font-size: 14.4px;
     list-style: none;
-    margin-bottom: 5px;
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.about-li {
+    font-size: 14.4px;
+    list-style: none;
     padding: 0;
 }
 
@@ -119,12 +125,12 @@ section {
 
 .Works {
     max-width: 840px;
-    margin: 0 auto;
+    padding: 0 5%;
+    margin-bottom: 130px;
 }
 
 .works-grid {
     max-width: 960px;
-    margin: 0 auto;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -133,7 +139,7 @@ section {
 
 .works-grid img {
     width: calc((100% - 40px) / 3);
-    height: 170px;
+    height: calc((100%-20px)/2);
     align-items: center;
     object-fit: cover;
 }
@@ -142,17 +148,19 @@ section {
 
 .News {
     max-width: 840px;
-    margin: 0 auto;
+    padding: 0 4%;
 }
 
 .news-list {
     align-items: center;
     max-width: 844px;
+    padding: 0;
 }
 
 .li1 {
     display: flex;
-    gap: 20px;
+    gap: 15px;
+    font-size: 14.4px;
     padding: 15px 0;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -163,8 +171,9 @@ section {
 .li4,
 .li5 {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     padding: 15px 0;
+    font-size: 14.4px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -180,15 +189,20 @@ section {
 
 /* Contact */
 
+.ttl2 {
+    font-size: 21.9px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .Contact {
     max-width: 840px;
-    margin: 0 auto;
 }
 
 .form-row {
     display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
 .contact-label {
@@ -203,13 +217,13 @@ textarea {
 }
 
 textarea {
-    height: 150px;
+    height: 120px;
 }
 
 .submit-btn {
     display: block;
-    margin: 40px auto 0;
-    padding: 10px 40px;
+    margin: 30px auto 0;
+    padding: 10px 70px;
     background: #222;
     color: #fff;
     border: 1px solid #000000;
@@ -237,13 +251,14 @@ textarea {
 
 /* Responsive（スマホ） */
 
-@media (max-width: 768px) {
+@media (max-width: 590px) {
 
     /* Header縦 */
     .Header {
         height: 100px;
         flex-direction: column;
-        gap: 10px;
+        justify-content: center;
+        gap: 0;
     }
 
     .logo {
@@ -251,8 +266,8 @@ textarea {
     }
 
     .h-list {
-        padding: 0;
-        flex-wrap: wrap;
+        padding: 10px;
+        flex-wrap: flex;
         justify-content: center;
     }
 
