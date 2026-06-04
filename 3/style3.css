@@ -139,7 +139,7 @@ section {
 
 .works-grid img {
     width: calc((100% - 40px) / 3);
-    height: calc((100%-20px)/2);
+    height: calc((100%-20px) / 2);
     align-items: center;
     object-fit: cover;
 }
@@ -270,6 +270,22 @@ textarea {
         flex-wrap: flex;
         justify-content: center;
     }
+
+    .works-grid {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        gap: 20px;
+    }
+
+    .works-grid img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    object-fit: cover;
+}
+
 
     .Works-img {
         width: 100%;
