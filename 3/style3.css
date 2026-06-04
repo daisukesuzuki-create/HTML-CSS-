@@ -269,6 +269,7 @@ textarea {
         padding: 10px;
         flex-wrap: flex;
         justify-content: center;
+        gap: 20px;
     }
 
     .works-grid {
