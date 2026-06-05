@@ -123,24 +123,29 @@ section {
 
 .works {
     max-width: 840px;
-    padding: 0 5%;
+    padding: 0;
     margin-bottom: 130px;
 }
 
 .works-grid {
     max-width: 960px;
     display: flex;
-    flex: 1;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
 }
 
-.works-grid img {
-    width: calc((100% - 40px) / 3);
-    height: calc((100%-20px) / 2);
-    align-items: center;
-    object-fit: cover;
+.works-grid1,
+.works-grid2 {
+    display: flex;
+    flex: 1;
+    gap: 20px;
 }
+
+.works-img{
+    flex: 1;
+    min-width: 0;
+}
+
 
 /* News*/
 
@@ -284,7 +289,6 @@ section {
     align-items: center;
     object-fit: cover;
 }
-
 
     .works-img {
         width: 100%;
