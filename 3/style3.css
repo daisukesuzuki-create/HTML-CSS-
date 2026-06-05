@@ -10,7 +10,7 @@ body {
 }
 
 /* Header*/
-.Header {
+.header {
     max-width: 840px;
     margin: 0 auto;
     height: 270px;
@@ -89,7 +89,7 @@ section {
     margin-bottom: 65px;
 }
 
-.About {
+.about {
     max-width: 840px;
 }
 
@@ -123,7 +123,7 @@ section {
 
 /*  Works */
 
-.Works {
+.works {
     max-width: 840px;
     padding: 0 5%;
     margin-bottom: 130px;
@@ -146,7 +146,7 @@ section {
 
 /* News*/
 
-.News {
+.news {
     max-width: 840px;
     padding: 0 4%;
 }
@@ -195,7 +195,7 @@ section {
     margin-bottom: 50px;
 }
 
-.Contact {
+.contact {
     max-width: 840px;
 }
 
@@ -237,14 +237,14 @@ textarea {
 
 /*  Footer */
 
-.Footer {
+.footer {
     height: 11px;
     text-align: center;
     padding: 10px 20px;
     background: #24292E;
 }
 
-.ftr {
+.copyright {
     font-size: 7.1px;
     color: #fff;
 }
@@ -254,7 +254,7 @@ textarea {
 @media (max-width: 590px) {
 
     /* Header縦 */
-    .Header {
+    .header {
         height: 100px;
         flex-direction: column;
         justify-content: center;
